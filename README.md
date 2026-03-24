@@ -111,8 +111,7 @@ This project is inspired by industry tools like Nmap, but implemented in a simpl
 
 ## 👤 Author
 
-Feroz Khan
-Cybersecurity Professional
+Feroz Khan, Cybersecurity Professional
 
 ## ⭐ Support
 
