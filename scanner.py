@@ -147,7 +147,7 @@ def main():
     targets = resolve_targets(args.target)
 
     print(f"\n{'='*55}")
-    print(f"  🔍 Port Scanner — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"  Port Scanner — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"  Targets : {len(targets)} host(s)")
     print(f"  Ports   : {len(ports)} ({args.ports})")
     print(f"  Threads : {args.threads}  |  Timeout: {args.timeout}s")
@@ -170,7 +170,7 @@ def main():
             save_results(args.output, ip, open_ports)
 
     if args.output:
-        print(f"  ✅ Results saved to: {args.output}\n")
+        print(f" Results saved to: {args.output}\n")
 
 
 if __name__ == "__main__":
